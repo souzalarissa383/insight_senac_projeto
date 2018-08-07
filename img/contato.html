@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Bootstrap Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="css/estilo.css">
+  <style>
+      body{
+			background-image:url(img/fundo18.jpg);
+			background-attachment:fixed;
+			background-size:100% 100%;
+			background-repeat:no-repeat;
+			background-color:#fff
+                
+		}
+    /* Remove the navbar's default rounded borders and increase the bottom margin */ 
+    .navbar {
+      margin-bottom: 50px;
+      border-radius: 0;
+            margin-top: 10px;
+
+    }
+      .carousel-inner > .item > img,
+  .carousel-inner > .item > a > img {
+      width: 50%;
+      margin: auto;
+  }
+    
+    /* Remove the jumbotron's default bottom margin */ 
+     .jumbotron {
+      margin-bottom: 0;
+    }
+   
+    /* Add a gray background color and some padding to the footer */
+    footer {
+      background-color: #f2f2f2;
+      padding: 25px;
+    }
+    
+  </style>
+</head>
+<body>
+<div class="container text-center">
+         
+    <img src="img/rocketz.png" width="67%" height="45%">
+  
+        
+    
+  </div>
+  <br>
+</div>
+
+<nav class="navbar navbar-default navbar-inverse" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav">
+        <li class=""><a href="index.html"><b>Home</b></a></li>
+        
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b> Produtos</b> <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">PC Gamer</a></li>
+            <li><a href="#">Teclado</a></li>
+            <li><a href="#">Mouse</a></li>
+            <li><a href="#">Headset</a></li>
+            <li><a href="#">Cadeira</a></li>
+            <li><a href="#">Mousepad</a></li>
+            <li><a href="#">Monitor</a></li>
+            <li><a href="#">WebCam</a></li>
+            <li><a href="#">Mesa</a></li>
+          </ul>
+        </li>
+         <li><a href="contato.html"></span> <b>Contato</b></a></li>
+        <li><a href="#"><b>Sobre</b></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b> Vestuario</b> <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Camiseta</a></li>
+            <li><a href="#">Boné</a></li>
+            <li><a href="#">Relógio</a></li>
+            
+          </ul>
+        </li>
+        <center <form class="navbar-form navbar-right " role="search">
+        <div class="form-group">
+          <input type="text" class="form-control" placeholder="Search">
+        </div>
+        <button type="submit" class="btn btn-default">Pesquisar</button>
+      </form></center>
+      </ul>
+    
+      <ul class="nav navbar-nav navbar-right">
+        
+        <li><a href="#"><b>Cadastre-se</b></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b>Login</b> <span class="glyphicon glyphicon-user"></span></a>
+          
+			<ul id="login-dp" class="dropdown-menu">
+				<li>
+                  <li><a href="#"><b>Carrinho de Compras</b><span class="glyphicon glyphicon-shopping-cart"></a></li>
+					 <div class="row">
+					  
+							<div class="col-md-12">
+								Login via
+								<div class="social-buttons">
+									<a href="#" class="btn btn-fb"><i class="fa fa-facebook"></i> Facebook</a>
+									<a href="#" class="btn btn-tw"><i class="fa fa-twitter"></i> Twitter</a>
+								</div>
+                                or
+								 <form class="form" role="form" method="post" action="login" accept-charset="UTF-8" id="login-nav">
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputEmail2">Email address</label>
+											 <input type="email" class="form-control" id="exampleInputEmail2" placeholder="Email address" required>
+										</div>
+										<div class="form-group">
+											 <label class="sr-only" for="exampleInputPassword2">Password</label>
+											 <input type="password" class="form-control" id="exampleInputPassword2" placeholder="Password" required>
+                                             <div class="help-block text-right"><a href="">Forget the password ?</a></div>
+										</div>
+										<div class="form-group">
+											 <button type="submit" class="btn btn-primary btn-block">Sign in</button>
+										</div>
+										<div class="checkbox">
+											 <label>
+											 <input type="checkbox"> keep me logged-in
+											 </label>
+										</div>
+								 </form>
+							</div>
+							<div class="bottom text-center">
+								New here ? <a href="#"><b>Join Us</b></a>
+							</div>
+					 </div>
+				</li>
+			</ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+
+ <div class="contact-section">
+            <div class="container right">
+             <center> <h1>Fale Conosco</h1></center>
+              
+              <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                  <form class="form-horizontal">
+                    <div class="form-group">
+                      <label for="exampleInputName2">Nome</label>
+                      <input type="text" class="form-control" id="exampleInputName2" placeholder="Seu nome e sobrenome">
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputEmail2">E-mail</label>
+                      <input type="email" class="form-control" id="exampleInputEmail2" placeholder="seu.nome@example.com">
+                    </div>
+                    <div class="form-group ">
+                      <label for="exampleInputText">Sua Mensagem</label>
+                     <textarea class="form-control" cols="52" rows="12"placeholder="Escreva sua mensagem"></textarea> 
+					
+                    <center><button type="submit" class="btn btn-default">Enviar</button></center>
+                  </form>
+
+                  
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+<br>
+<footer class="container-fluid text-center">
+  <h3>Redes Sociais</h3>
+                  <ul class="list-inline banner-social-buttons">
+                    <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-twitter"> <span class="network-name">Twitter</span></i></a></li>
+                    <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-facebook"> <span class="network-name">Facebook</span></i></a></li>
+                    <li><a href="#" class="btn btn-default btn-lg"><i class="fa fa-youtube-play"> <span class="network-name">Youtube</span></i></a></li>
+                  </ul>
+  <p>Online Store Copyright</p>  
+  <form class="form-inline">Obter ofertas:
+    <input type="email" class="form-control" size="50" placeholder="Email Address">
+    <button type="button" class="btn btn-danger">Inscreva-se</button>
+  </form>
+</footer>
+
+</body>
+</html>

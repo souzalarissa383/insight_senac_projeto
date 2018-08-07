@@ -1,0 +1,457 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <title>Insight</title>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+
+    </script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        body {
+            background-image: url(img/fundo18.jpg);
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-color: black;
+        }
+
+        .navbar {
+            font-size: 17px;
+
+        }
+
+
+
+        .navbar-inverse {
+            background-color: currentColor;
+            border-color: currentColor;
+            margin-top: 20px;
+        }
+
+    </style>
+
+</head>
+
+<body>
+    <div class="container center-block text-center">
+        <img src="img/Insightlogo.png" style="margin-top: 15px;" width="67%" height="45%">
+
+    </div>
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <title>Insight</title>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <style>
+        body {
+            background-image: url(img/fundo18.jpg);
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-color: black;
+        }
+
+        .navbar {
+            font-size: 17px;
+        }
+
+        .navbar-inverse {
+            background-color: currentColor;
+            border-color: currentColor;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container center-block text-center">
+        <img src="img/Insightlogo.png" style="margin-top: 15px;" width="67%" height="45%">
+
+    </div>
+
+    <nav class="navbar navbar-default navbar-inverse">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao">
+                    <span class="sr-only">Alternar Menu</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="barra-navegacao">
+
+
+
+                <ul class="nav navbar-nav">
+                    <li class=""><a href="index.html"><b>Home</b></a></li>
+
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b> Produtos</b> <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="pcgamer.html">PC Gamer</a></li>
+                            <li><a href="teclado.html">Teclado</a></li>
+                            <li><a href="mouse.html">Mouse</a></li>
+                            <li><a href="headset.html">Headset</a></li>
+                            <li><a href="cadeira.html">Cadeira</a></li>
+                            <li><a href="mousepad.html">Mousepad</a></li>
+                            <li><a href="monitor.html">Monitor</a></li>
+                            <li><a href="webcam.html">WebCam</a></li>
+                            <li><a href="mesa.html">Mesa</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li><a href="sobre.html"><b>Sobre</b></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b> Vestuario</b> <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Camiseta</a></li>
+                            <li><a href="#">Boné</a></li>
+                            <li><a href="#">Relógio</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="contato.html"> <b>Contato</b></a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="cadastro.html"><span class="glyphicon glyphicon-user"></span> Cadastre-se</a>
+                    </li>
+                    <li><a href="login.html" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+                <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                    <div class="modal-dialog">
+                        <div class="loginmodal-container">
+                            <h1>Entrar</h1>
+                            <form>
+                                <input type="text" name="user" placeholder="Usuário">
+                                <input type="password" name="pass" placeholder="Senha">
+                                <input type="submit" name="login" class="login loginmodal-submit" value="Login">
+                            </form>
+
+                            <div class="login-help">
+                                <a href="cadastro.html">Cadastre-se</a> - <a href="senha.html">Esqueceu a Senha ?</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+
+
+    <div class="container">
+        <div class="row">
+
+            <div class="page-header">
+                <h1>PC Gamer</h1>
+            </div>
+
+            <div class="col-sm-3">
+                <div class="panel panel-primary">
+                    <header class="panel-heading">
+                        <h5 class="panel-title">Raptor</h5>
+                    </header>
+                    <div class="panel-body center-block">
+                        <img src="img/produto1.jpg" class="img-responsive" alt="Image">
+                        <a href="raptor.html"><b>R$ 3.034,70 | 12x R$ 287,38</b></a>
+                        <div class="btn-group center-block" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn btn-primary ">Comprar</button>
+                            <a href="raptor.html" class="btn btn btn-primary" role="button">Detalhes</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-3">
+                <div class="panel panel-primary">
+                    <header class="panel-heading">
+                        <h5 class="panel-title">Prime</h5>
+                    </header>
+                    <div class="panel-body center-block">
+                        <img src="img/produto2.png" class="img-responsive" alt="Image">
+                        <a href="prime.html"><b>R$ 3.277,18 | 12x R$ 310,34</b></a>
+                        <div class="btn-group center-block" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn btn-primary ">Comprar</button>
+                            <a href="prime.html" class="btn btn btn-primary" role="button">Detalhes</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-3">
+                <div class="panel panel-primary">
+                    <header class="panel-heading">
+                        <h5 class="panel-title">Nexus</h5>
+                    </header>
+                    <div class="panel-body center-block">
+                        <img src="img/produto3.jpg" class="img-responsive " alt="Image">
+                        <a href="nexus.html"><b>R$ 3.660,51 | 12x R$ 346,64</b></a>
+                        <div class="btn-group center-block" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn btn-primary ">Comprar</button>
+                            <a href="nexus.html" class="btn btn btn-primary" role="button">Detalhes</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-3">
+                <div class="panel panel-primary">
+                    <header class="panel-heading">
+                        <h5 class="panel-title">Ghost</h5>
+                    </header>
+                    <div class="panel-body center-block">
+                        <img src="img/produto4.jpg" class="img-responsive " alt="Image">
+                        <a href="ghost.html"><b>R$ 7.431,36 | 12x R$ 703,73</b></a>
+                        <div class="btn-group center-block" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn btn-primary ">Comprar</button>
+                            <a href="ghost.html" class="btn btn btn-primary" role="button">Detalhes</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-3">
+                <div class="panel panel-primary">
+                    <header class="panel-heading">
+                        <h5 class="panel-title">Veneno</h5>
+                    </header>
+                    <div class="panel-body center-block">
+                        <img src="img/produto5.png" class="img-responsive " alt="Image">
+                        <a href="veneno.html"><b>R$ 8.271,75 | 12x R$ 783,31</b></a>
+                        <div class="btn-group center-block" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn btn-primary ">Comprar</button>
+                            <a href="veneno.html" class="btn btn btn-primary" role="button">Detalhes</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-3">
+                <div class="panel panel-primary">
+                    <header class="panel-heading">
+                        <h5 class="panel-title">Firestorm</h5>
+                    </header>
+                    <div class="panel-body center-block">
+                        <img src="img/produto6.jpg" class="img-responsive " alt="Image">
+                        <a href="firestorm.html"><b>R$ 4.601,41 | 12x R$ 435,74</b></a>
+                        <div class="btn-group center-block" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn btn-primary ">Comprar</button>
+                            <a href="firestorm.html" class="btn btn btn-primary" role="button">Detalhes</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-3">
+                <div class="panel panel-primary">
+                    <header class="panel-heading">
+                        <h5 class="panel-title">Assasin
+                        </h5>
+                    </header>
+                    <div class="panel-body center-block">
+                        <img src="img/produto7.png" class="img-responsive " alt="Image">
+                        <a href="assasin.html"><b>R$ 4.601,41 | 12x R$ 435,74</b></a>
+                        <div class="btn-group center-block" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn btn-primary ">Comprar</button>
+                            <a href="assasin.html" class="btn btn btn-primary" role="button">Detalhes</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-3">
+                <div class="panel panel-primary">
+                    <header class="panel-heading">
+                        <h5 class="panel-title">HAVOC</h5>
+                    </header>
+                    <div class="panel-body center-block">
+                        <img src="img/produto8.jpg" class="img-responsive " alt="Image">
+                        <a href="havoc.html"><b>R$ 4.109,18 | 12x R$ 389,13</b></a>
+                        <div class="btn-group center-block" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn btn-primary ">Comprar</button>
+                            <a href="havoc.html" class="btn btn btn-primary" role="button">Detalhes</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-3">
+                <div class="panel panel-primary">
+                    <header class="panel-heading">
+                        <h5 class="panel-title">Armor</h5>
+                    </header>
+                    <div class="panel-body center-block">
+                        <img src="img/produto8.jpg" class="img-responsive " alt="Image">
+                        <a href="arnor.html"><b>R$ 6.748,92 | 12x R$ 639,10</b></a>
+                        <div class="btn-group center-block" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn btn-primary ">Comprar</button>
+                            <a href="arnor.html" class="btn btn btn-primary" role="button">Detalhes</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="col-sm-3">
+                <div class="panel panel-primary">
+                    <header class="panel-heading">
+                        <h5 class="panel-title">Defender</h5>
+                    </header>
+                    <div class="panel-body center-block">
+                        <img src="img/htc10b-v-600x600.jpg" class="img-responsive " alt="Image">
+                        <a href="defender.html"><b>R$ 5.103,80 | 12x R$ 483,31</b></a>
+                        <div class="btn-group center-block" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn btn-primary ">Comprar</button>
+                            <a href="defender.html" class="btn btn btn-primary" role="button">Detalhes</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-sm-3">
+                <div class="panel panel-primary">
+                    <header class="panel-heading">
+                        <h5 class="panel-title">Predator</h5>
+                    </header>
+                    <div class="panel-body center-block">
+                        <img src="img/predator.jpg" class="img-responsive " alt="Image">
+                        <a href="predator.html"><b>R$ 11.585,21 | 12x R$ 1.097,08</b></a>
+                        <div class="btn-group center-block" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn btn-primary ">Comprar</button>
+                            <a href="predator.html" class="btn btn btn-primary" role="button">Detalhes</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-sm-3">
+                <div class="panel panel-primary">
+                    <header class="panel-heading">
+                        <h5 class="panel-title">Carnage</h5>
+                    </header>
+                    <div class="panel-body center-block">
+                        <img src="img/produto9.jpg" class="img-responsive " alt="Image">
+                        <a href="carnage.html"><b>R$ 29.709,51 | 12x R$ 2.813,40</b></a>
+                        <div class="btn-group center-block" role="group" aria-label="Basic example">
+                            <button type="button" class="btn btn btn-primary ">Comprar</button>
+                            <a href="carnage.html" class="btn btn btn-primary" role="button">Detalhes</a>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+
+    <footer id="rodape ">
+        <div class="container ">
+            <div class="row ">
+
+                <div class="col-md 2 ">
+                    <a href="#home1 " class="scrollToTop ">
+            <img src="img/arrow.png " alt=" " class="img-responsive " /></a>
+                </div>
+
+
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js "></script>
+
+    <script type="text/javascript ">
+        $(document).ready(function() {
+
+            //Check to see if the window is top if not then display button
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 100) {
+                    $('.scrollToTop').fadeIn();
+                } else {
+                    $('.scrollToTop').fadeOut();
+                }
+            });
+
+            //Click event to scroll to top
+            $('.scrollToTop').click(function() {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+
+        });
+    </script>
+
+    <script>
+    </script>
+
+</body>
+
+</html>

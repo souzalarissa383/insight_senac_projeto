@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" media="screen" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/css/bootstrap.min.css">
+
+    <title>Insight</title>
+
+    <script type="text/javascript">
+        jQuery(document).ready(function($) {
+            $(".scroll").click(function(event) {
+                event.preventDefault();
+                $('html,body').animate({
+                    scrollTop: $(this.hash).offset().top
+                }, 1000);
+            });
+        });
+    </script>
+    <link rel="stylesheet" href="css/estilo.css">
+    <link rel="stylesheet" href="css/produtos.css">
+    <style>
+        body {
+            background-image: url(img/fundo18.jpg);
+            background-attachment: fixed;
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-color: black;
+        }
+
+        .navbar {
+            font-size: 17px;
+
+        }
+
+
+
+        .navbar-inverse {
+            background-color: currentColor;
+            border-color: currentColor;
+            margin-top: 20px;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="container center-block text-center">
+        <img src="img/Insightlogo.png" style="margin-top: 15px;" width="67%" height="45%">
+
+    </div>
+    <nav class="navbar navbar-default navbar-inverse">
+        <div class="container-fluid">
+
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#barra-navegacao">
+            <span class="sr-only">Alternar Menu</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+            </div>
+
+            <div class="collapse navbar-collapse" id="barra-navegacao">
+
+
+
+                <ul class="nav navbar-nav">
+                    <li class=""><a href="index.html"><b>Home</b></a></li>
+
+
+
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b> Produtos</b> <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="pcgamer.html">PC Gamer</a></li>
+                            <li><a href="teclado.html">Teclado</a></li>
+                            <li><a href="mouse.html">Mouse</a></li>
+                            <li><a href="headset.html">Headset</a></li>
+                            <li><a href="cadeira.html">Cadeira</a></li>
+                            <li><a href="mousepad.html">Mousepad</a></li>
+                            <li><a href="monitor.html">Monitor</a></li>
+                            <li><a href="webcam.html">WebCam</a></li>
+                            <li><a href="mesa.html">Mesa</a></li>
+                        </ul>
+
+                    </li>
+
+                    <li><a href="sobre.html"><b>Sobre</b></a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown"><b> Vestuario</b> <span class="caret"></span></a>
+                        <ul class="dropdown-menu" role="menu">
+                            <li><a href="#">Camiseta</a></li>
+                            <li><a href="#">Boné</a></li>
+                            <li><a href="#">Relógio</a></li>
+
+                        </ul>
+                    </li>
+
+                    <li>
+                        <a href="contato.html"> <b>Contato</b></a>
+                    </li>
+                </ul>
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="cadastro.html"><span class="glyphicon glyphicon-user"></span> Cadastre-se</a>
+                    </li>
+                    <li><a href="login.html" data-toggle="modal" data-target="#login-modal"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                </ul>
+                <div class="modal fade" id="login-modal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true" style="display: none;">
+                    <div class="modal-dialog">
+                        <div class="loginmodal-container">
+                            <h1>Entrar</h1>
+                            <form>
+                                <input type="text" name="user" placeholder="Usuário">
+                                <input type="password" name="pass" placeholder="Senha">
+                                <input type="submit" name="login" class="login loginmodal-submit" value="Login">
+                            </form>
+
+                            <div class="login-help">
+                                <a href="cadastro.html">Cadastre-se</a> - <a href="#">Esqueceu a Senha</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="container ">
+            <div class="page-header">
+                <h1>Mouse</h1>
+            </div>
+
+
+            <div class="container-fliud">
+                <div class="wrapper row">
+                    <div class="preview col-md-6">
+
+                        <div class="preview-pic tab-content">
+                            <div class="tab-pane active" id="pic-1"><img src="img/mouse2.jpg" /></div>
+                            <div class="tab-pane" id="pic-2"><img src="img/mouse2.jpg" /></div>
+
+                        </div>
+                        <ul class="preview-thumbnail nav nav-tabs">
+                            <li class="active"><a data-target="#pic-1" data-toggle="tab"><img src="img/mouse2.jpg"/></a></li>
+
+
+
+                        </ul>
+
+                    </div>
+                    <div class="details col-md-6">
+                        <h3 class="product-title">DeathAdder Elite</h3>
+                        <div class="rating">
+                            <div class="stars">
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star checked"></span>
+                                <span class="fa fa-star"></span>
+                                <span class="fa fa-star"></span>
+                            </div>
+
+                        </div>
+
+
+                        <h4 class="price">Preço: <span>R$ 239,27</span></h4>
+
+                        <div class="action">
+                            <button class="add-to-cart btn btn-primary" type="button">Comprar</button>
+
+                        </div>
+                        <br>
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+    <footer id="rodape ">
+        <div class="container ">
+            <div class="row ">
+
+                <div class="col-md 2 ">
+                    <a href="#home1 " class="scrollToTop ">
+            <img src="img/arrow.png " alt=" " class="img-responsive " /></a>
+                </div>
+
+
+            </div>
+        </div>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js "></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.5/js/bootstrap.min.js "></script>
+
+    <script type="text/javascript ">
+        $(document).ready(function() {
+
+            //Check to see if the window is top if not then display button
+            $(window).scroll(function() {
+                if ($(this).scrollTop() > 100) {
+                    $('.scrollToTop').fadeIn();
+                } else {
+                    $('.scrollToTop').fadeOut();
+                }
+            });
+
+            //Click event to scroll to top
+            $('.scrollToTop').click(function() {
+                $('html, body').animate({
+                    scrollTop: 0
+                }, 800);
+                return false;
+            });
+
+        });
+    </script>
+
+    <script>
+    </script>
+
+</body>
+
+</html>
